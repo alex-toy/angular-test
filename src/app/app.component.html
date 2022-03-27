@@ -1,0 +1,15 @@
+<h1>{{message}}</h1>
+
+<input type="text"
+    [(ngModel)]="messageInput"
+>
+<button
+    (click)="onClick(messageInput)">
+    set interval
+</button>
+
+
+<counter
+  (messageEvent)="displayMessage($event)"
+  [events]="orderSubject.asObservable()"
+></counter>
