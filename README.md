@@ -1,6 +1,6 @@
 # Purpose of this project
 
-Understand component communication in Angular : from parent to child and reverse.
+Understand component communication in Angular : from parent to child and reverse as well as between siblings.
 
 
 # AngularTest
