@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ChildTwoComponent } from './child-two/child-two.component';
+import { ObervablesComponent } from './obervables/obervables.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     ChildOneComponent,
-    ChildTwoComponent
+    ChildTwoComponent,
+    ObervablesComponent
   ],
   imports: [
     BrowserModule,

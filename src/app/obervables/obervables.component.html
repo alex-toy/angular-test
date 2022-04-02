@@ -1,0 +1,16 @@
+<p>obervables works!</p>
+<h1>{{test | async}}</h1>
+<h1>{{test1 }}</h1>
+<h1>{{streamOf | async }}</h1>
+<h1>{{streamOf }}</h1>
+<h1>{{stream | async}}</h1>
+<h1 *ngIf="(stream | async) as st">{{st}}</h1>
+<button 
+    (click)="start()">
+    start
+</button>
+
+<button 
+    (click)="stop()">
+    stop
+</button>
